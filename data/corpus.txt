@@ -2,5 +2,4 @@ machine learning is amazing
 python is great for data science
 artificial intelligence is the future
 deep learning is part of machine learning
-i love building ai projects
 data science is very interesting
