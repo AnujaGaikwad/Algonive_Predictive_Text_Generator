@@ -71,7 +71,7 @@ Algonive_Predictive_Text_Generator
 
 ```bash
 pip install -r requirements.txt
-python predictive_text.py
+python text
 ```
 
 ---

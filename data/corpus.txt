@@ -1,5 +1,8 @@
-machine learning is amazing
-python is great for data science
-artificial intelligence is the future
-deep learning is part of machine learning
-data science is very interesting
+data = [
+    "machine learning is powerful",
+    "machine learning is used in ai",
+    "machine learning helps in prediction",
+    "deep learning is a subset of ai",
+    "ai is transforming the world",
+    "data science is important",
+]
