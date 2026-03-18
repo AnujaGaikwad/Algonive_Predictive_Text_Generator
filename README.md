@@ -1,89 +1,87 @@
-# 🚀 Predictive Text Generator (NLP Project)
+Predictive Text Generator (LSTM NLP Project)
+📌 Overview
 
-## 📌 Overview
+This project is an AI-based Predictive Text Generator built using Natural Language Processing (NLP) and Deep Learning (LSTM).
 
-This project is a **Predictive Text Generator** built using **Natural Language Processing (NLP)** and **Deep Learning (LSTM)**.
-It predicts the next word in a sentence based on previously typed words, similar to autocomplete systems used in real-world applications.
+It predicts the next word in a sentence based on previously typed text — similar to autocomplete systems used in keyboards and chat applications.
 
----
+🎯 Objective
 
-## 🎯 Objective
+To design and implement a sequence-based NLP model that learns language patterns and generates context-aware next-word predictions.
 
-To develop an NLP-based model that understands text patterns and predicts the next word using sequence learning techniques.
+🛠 Tech Stack
 
----
+Python
 
-## 🛠 Tech Stack
+TensorFlow / Keras
 
-* Python
-* TensorFlow / Keras
-* NumPy
-* NLTK
-* Regex (Text Cleaning)
+NumPy
 
----
+Streamlit (for UI)
 
-## ⚙️ Features
+Regex (Text preprocessing)
 
-* Next word prediction
-* NLP-based text processing
-* Automatic word indexing
-* Context-aware suggestions
-* Lightweight and scalable model
+⚙️ Features
 
----
+🔮 Next word prediction
 
-## 🧠 How It Works
+🧠 LSTM-based sequence learning
 
-1. Load and clean dataset
-2. Convert text into tokens
-3. Generate n-gram sequences
-4. Train LSTM model
-5. Predict next word
+📝 Text preprocessing & tokenization
 
----
+⚡ Fast prediction using saved model
 
-## ▶️ Example
+🌐 Interactive web app using Streamlit
+
+🧠 How It Works
+
+Load and clean text dataset
+
+Convert text into tokens
+
+Generate n-gram sequences
+
+Train LSTM model on sequences
+
+Save trained model & tokenizer
+
+Predict next word using trained model
+
+▶️ Example
 
 Input:
+
 machine learning
 
 Output:
-is
 
----
-
-## 📂 Project Structure
-
-```
+machine learning is in ai
+📂 Project Structure
 Algonive_Predictive_Text_Generator
 │
-├── data
+├── data/
 │   └── corpus.txt
-├── predictive_text.py
+├── train.py
+├── app.py
 ├── requirements.txt
 └── README.md
-```
-
----
-
-## 🚀 Run the Project
-
-```bash
+🚀 How to Run
+1️⃣ Install dependencies
 pip install -r requirements.txt
-python text
-```
+2️⃣ Train the model
+python train.py
+3️⃣ Run the web app
+streamlit run app.py
+💡 Future Improvements
 
----
+Use larger dataset for better accuracy
 
-## 💡 Future Improvements
+Add multi-word prediction
 
-* Larger dataset for better accuracy
-* Web interface using Streamlit
-* Sentence-level prediction
+Improve sentence generation using temperature sampling
 
----
+Deploy on cloud (Streamlit Cloud / Render)
 
-## 👩‍💻 Author
+👩‍💻 Author
 
 Anuja Ramesh Gaikwad
